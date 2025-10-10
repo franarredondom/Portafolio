@@ -49,4 +49,18 @@ Este repositorio contiene el código de mi **portafolio web** (HTML + Tailwind).
 ## 📦 Estructura y uso
 
 Este portafolio es un **sitio estático**:
+Portafolio/
+├─ index.html
+├─ cv_arredondo_francisca_full_stack.pdf 
+└─ assets/ 
+
+
+### Ejecutar en local
+- Abrir `index.html` directamente en el navegador **o**
+- Servidor simple:
+  ```bash
+  # con Python
+  python -m http.server 5500
+  # abrir http://localhost:5500
+
 
