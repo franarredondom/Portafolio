@@ -1,66 +1,58 @@
-# 🌐 Portafolio — Francisca Arredondo
+# Portafolio — Francisca Arredondo
 
-**Desarrolladora Fullstack** con formación en **Análisis y Programación Computacional**.  
-Experiencia en el **diseño y desarrollo de aplicaciones web escalables**, trabajando con **Angular, React y Node.js**.  
-Creo **interfaces modernas**, **lógicas de negocio eficientes** y **arquitecturas limpias** centradas en la mantenibilidad y el rendimiento.
+Portafolio profesional de **Francisca Arredondo**, desarrolladora Full Stack en Santiago, Chile.
 
-📍 Santiago, Chile · ✉️ **fran.arredondom@gmail.com**  
-🔗 **LinkedIn:** https://www.linkedin.com/in/franarredondom/  
-🔗 **GitHub:** https://github.com/franarredondom
+El sitio presenta proyectos construidos de punta a punta, con experiencia en interfaces, APIs, autenticación, persistencia, automatización y despliegue.
 
----
+## Sitio
 
-## 🚀 Sitio
+- [Ver portafolio](https://franarredondom.github.io/Portafolio/)
+- [LinkedIn](https://www.linkedin.com/in/franarredondom/)
+- [GitHub](https://github.com/franarredondom)
 
-Este repositorio contiene el código de mi **portafolio web** (HTML + Tailwind).  
-**Demo pública:** se publica con GitHub Pages desde la rama `main` (carpeta raíz).
+## Proyectos destacados
 
-- Portafolio: `https://franarredondom.github.io/Portafolio/`
-- CV (PDF): `https://franarredondom.github.io/Portafolio/cv_arredondo_francisca_full_stack.pdf`
+### PulseOps
 
-> Sube el archivo `cv_arredondo_francisca_full_stack.pdf` a la raíz del repo para habilitar el botón “Descargar CV”.
+Plataforma privada de auditoría técnica y monitoreo HTTP. Analiza rendimiento, SEO, seguridad y disponibilidad, mantiene informes por usuario y registra incidentes.
 
----
+**Tecnologías:** React, TypeScript, Python, FastAPI, PostgreSQL, Supabase y Render.
 
-## 🧩 Proyectos destacados
+- [Ver producto](https://pulseops-dashboard.onrender.com/)
+- [Ver repositorio](https://github.com/franarredondom/PulseOps)
 
-| Proyecto | Descripción | Tecnologías |
-|---|---|---|
-| **[DestinApp](https://github.com/franarredondom/DestinApp)** | Aplicación para solicitar viajes con roles, autenticación y mapas (Geocoder). Proyecto académico migrado. | Angular · Ionic · Firebase · Google Maps API |
-| **[DestinApp — Landing](https://franarredondom.github.io/DestinApp-Landing/)** | Landing promocional estilo “tienda” con ficha técnica y descarga de APK. | HTML · CSS · Bootstrap |
-| **[PixelCritic](https://github.com/franarredondom/PixelCritic)** | Proyecto migrado a este portafolio. *(Breve descripción del objetivo: reseñas/análisis, etc.)* | React |
-| **[Multi-Stock-Sync (colaboración)](https://github.com/franarredondom/Multi-Stock-Sync)** | Participación Frontend en panel para gestión/análisis de productos (Mercado Libre). | React · TypeScript · APIs REST |
-| **[SICAVET](https://sicavet.vercel.app/)** | Sistema de gestión veterinaria. | React · Firebase |
+### Jornada+
 
-> Tip: fija (pin) estos repos en tu perfil de GitHub para destacarlos.
+Aplicación para registrar jornadas laborales, turnos nocturnos y horas extra. Calcula montos estimados, presenta resúmenes semanales y permite exportar el historial a Excel.
 
----
+**Tecnologías:** React, TypeScript, Fastify, PostgreSQL, Supabase y Render.
 
-## 🛠️ Stack principal
+- [Ver repositorio](https://github.com/franarredondom/Jornada-)
 
-- **Frontend:** Angular, React, TypeScript, Tailwind  
-- **Backend:** Node.js, Express, (Firebase Functions cuando aplica)  
-- **Datos:** Firestore/NoSQL, SQL (MySQL/PostgreSQL)  
-- **Prácticas:** Clean Code, arquitectura modular, testing, rendimiento  
-- **Herramientas:** Git/GitHub, CI/CD, Docker
+### CazaOfertas CL
 
----
+MVP para monitorear productos, mantener un historial de precios y detectar caídas anormales, con revisiones programadas y alertas por Telegram.
 
-## 📦 Estructura y uso
+**Tecnologías:** Node.js, SQLite, JSON-LD, Open Graph y Telegram Bot API.
 
-Este portafolio es un **sitio estático**:
+- [Ver código](https://github.com/franarredondom/Jornada-/tree/main/CazaOfertas)
+
+## Stack
+
+- **Frontend:** React, Angular, Ionic, TypeScript, JavaScript, HTML y CSS.
+- **Backend:** Node.js, Fastify, Python, FastAPI y APIs REST.
+- **Datos:** PostgreSQL, MySQL, MongoDB, Firebase y Supabase.
+- **Entrega:** Git, GitHub Actions, Docker, CI/CD, Render y Vercel.
+
+## Estructura
+
+El portafolio es un sitio estático y liviano:
+
+```text
 Portafolio/
-├─ index.html
-├─ cv_arredondo_francisca_full_stack.pdf 
-└─ assets/ 
+├── index.html
+└── assets/
+    └── cv_arredondo_francisca_full_stack.pdf
+```
 
-
-### Ejecutar en local
-- Abrir `index.html` directamente en el navegador **o**
-- Servidor simple:
-  ```bash
-  # con Python
-  python -m http.server 5500
-  # abrir http://localhost:5500
-
-
+Puede abrirse directamente en el navegador o publicarse con GitHub Pages desde la rama `main`.
