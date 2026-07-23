@@ -165,6 +165,7 @@
     .project.side { grid-column: span 5; }
     .project.third { grid-column: span 5; }
     .project.compact { grid-column: span 7; min-height: 330px; }
+    .project.wide { grid-column: span 12; min-height: 310px; }
     .project-number { color: var(--accent-2); font-family: "Manrope"; font-size: .82rem; font-weight: 800; letter-spacing: .1em; }
     .project h3 { margin-top: 55px; font-size: clamp(1.8rem, 4vw, 3.1rem); }
     .project p { max-width: 570px; margin: 18px 0 0; color: var(--muted); }
@@ -216,7 +217,7 @@
       .profile-card { min-height: 320px; }
       .section-head { display: block; }
       .section-head p { margin-top: 16px; }
-      .project.featured, .project.side, .project.third, .project.compact { grid-column: span 12; }
+      .project.featured, .project.side, .project.third, .project.compact, .project.wide { grid-column: span 12; }
       .skills-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 580px) {
@@ -285,12 +286,22 @@
             <p class="eyebrow">Trabajo seleccionado</p>
             <h2>Proyectos pensados como productos, no solo como código.</h2>
           </div>
-          <p>Una selección que demuestra frontend, backend, autenticación, persistencia, automatización y despliegue en escenarios distintos.</p>
+          <p>Una selección que demuestra frontend, backend, integración de APIs, autenticación, persistencia, automatización y despliegue.</p>
         </div>
 
         <div class="projects">
           <article class="project featured reveal">
-            <span class="project-number">01 / PULSEOPS</span>
+            <span class="project-number">01 / COMPARAYA</span>
+            <div class="project-tags"><span>React</span><span>Next.js</span><span>APIs REST</span></div>
+            <h3>Busca una vez. Compra mejor.</h3>
+            <p>Comparador de precios para Chile conectado a SoloTodo y Mercado Libre. Normaliza precio, stock, condición y despacho, destaca la alternativa más conveniente y conserva el enlace a cada publicación original.</p>
+            <div class="project-links">
+              <a class="text-link" href="https://github.com/franarredondom/ComparaYa" target="_blank" rel="noopener">Código</a>
+            </div>
+          </article>
+
+          <article class="project side reveal">
+            <span class="project-number">02 / PULSEOPS</span>
             <div class="project-tags"><span>React</span><span>FastAPI</span><span>PostgreSQL</span></div>
             <h3>Observabilidad web convertida en decisiones claras.</h3>
             <p>Plataforma privada de auditoría técnica y monitoreo HTTP. Analiza SEO, rendimiento, seguridad y disponibilidad; guarda informes por usuario y registra incidentes automáticamente.</p>
@@ -300,8 +311,8 @@
             </div>
           </article>
 
-          <article class="project side reveal">
-            <span class="project-number">02 / JORNADA+</span>
+          <article class="project third reveal">
+            <span class="project-number">03 / JORNADA+</span>
             <div class="project-tags"><span>React</span><span>Fastify</span><span>PostgreSQL</span></div>
             <h3>Control laboral simple y personal.</h3>
             <p>Aplicación para registrar jornadas, turnos nocturnos y horas extra. Calcula montos estimados, presenta resúmenes semanales y exporta el historial a Excel.</p>
@@ -310,8 +321,8 @@
             </div>
           </article>
 
-          <article class="project third reveal">
-            <span class="project-number">03 / CAZAOFERTAS CL</span>
+          <article class="project compact reveal">
+            <span class="project-number">04 / CAZAOFERTAS CL</span>
             <div class="project-tags"><span>Node.js</span><span>SQLite</span><span>Telegram</span></div>
             <h3>Precios bajo vigilancia.</h3>
             <p>MVP que monitorea productos, construye un historial de precios y detecta caídas anormales. Incluye revisiones automáticas y alertas de ofertas por Telegram.</p>
@@ -320,8 +331,8 @@
             </div>
           </article>
 
-          <article class="project compact reveal">
-            <span class="project-number">04 / OTROS PROYECTOS</span>
+          <article class="project wide reveal">
+            <span class="project-number">05 / OTROS PROYECTOS</span>
             <div class="project-tags"><span>Angular</span><span>Ionic</span><span>Firebase</span></div>
             <h3>DestinApp y colaboraciones frontend.</h3>
             <p>Aplicación móvil híbrida de transporte con autenticación, roles y mapas; además de experiencia colaborando en interfaces y consumo de APIs para productos de gestión.</p>

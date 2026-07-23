@@ -12,6 +12,14 @@ El sitio presenta proyectos construidos de punta a punta, con experiencia en int
 
 ## Proyectos destacados
 
+### ComparaYa
+
+Comparador de precios para Chile conectado a SoloTodo y Mercado Libre. Normaliza precio, stock, condición y despacho, identifica la alternativa más conveniente y enlaza cada resultado con su publicación original.
+
+**Tecnologías:** React, TypeScript, Next.js, vinext, APIs REST y Cloudflare.
+
+- [Ver repositorio](https://github.com/franarredondom/ComparaYa)
+
 ### PulseOps
 
 Plataforma privada de auditoría técnica y monitoreo HTTP. Analiza rendimiento, SEO, seguridad y disponibilidad, mantiene informes por usuario y registra incidentes.
