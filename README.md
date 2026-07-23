@@ -52,7 +52,7 @@ El portafolio es un sitio estático y liviano:
 Portafolio/
 ├── index.html
 └── assets/
-    └── cv_arredondo_francisca_full_stack.pdf
+    └── CV_Francisca_Arredondo_2026.pdf
 ```
 
 Puede abrirse directamente en el navegador o publicarse con GitHub Pages desde la rama `main`.
