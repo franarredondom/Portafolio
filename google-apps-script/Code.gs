@@ -8,7 +8,7 @@ function doGet(e) {
   const event = String(p.event || '');
   if (!['visit', 'cv_click'].includes(event)) return ContentService.createTextOutput('ignored');
   const path = String(p.page || '/').slice(0, 160);
-  if (!/^\\/[a-zA-Z0-9_\\/\\-.%]*$/.test(path)) return ContentService.createTextOutput('ignored');
+  if (!path.startsWith('/') || path.includes('..')) return ContentService.createTextOutput('ignored');
   const props = PropertiesService.getScriptProperties();
   const token = props.getProperty('TELEGRAM_BOT_TOKEN');
   const chat = props.getProperty('TELEGRAM_CHAT_ID');
@@ -30,7 +30,7 @@ function doGet(e) {
     UrlFetchApp.fetch('https://api.telegram.org/bot' + token + '/sendMessage', {
       method: 'post',
       contentType: 'application/json',
-      payload: JSON.stringify({chat_id: chat, text: message + '\\nPágina: ' + path + '\\nHora Chile: ' + now}),
+      payload: JSON.stringify({chat_id: chat, text: message + '\nPágina: ' + path + '\nHora Chile: ' + now}),
       muteHttpExceptions: true
     });
   } catch (err) { console.error('Telegram delivery failed'); }
