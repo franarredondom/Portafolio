@@ -401,6 +401,9 @@
     <span>Diseñado y desarrollado en Santiago, Chile.</span>
   </footer>
 
+  <!-- Analítica opcional: se activa al configurar analytics/config.js -->
+  <script src="analytics/config.js"></script>
+  <script src="analytics/tracker.js" defer></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
     const observer = new IntersectionObserver((entries) => {
